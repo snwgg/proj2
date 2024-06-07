@@ -7,4 +7,7 @@ body{
     background-color: black;
     display: block;
     justify-content: center;
-}
+    
+    .pacifico-regular{
+        color: antiquewhite;
+    }
