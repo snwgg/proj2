@@ -1,85 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
 .pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-body{
-    background-color: black;
-    display: block;
-    justify-content: center;
-    
-    .pacifico-regular{
-        color: antiquewhite;
-    }
-    .btn{
-      .text-box {
-        justify-content: center;
-        margin-left: 44vw;
-       margin-top: 42vh;
-    }
-    
-    .btn:link,
-    .btn:visited {
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 15px 40px;
-        display: inline-block;
-        border-radius: 100px;
-        transition: all .2s;
-        position: absolute;
-    }
-    
-    .btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-    
-    .btn:active {
-        transform: translateY(-1px);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    }
-    
-    .btn-white {
-        background-color: #fff;
-        color: #777;
-    }
-    
-    .btn::after {
-        content: "";
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        border-radius: 100px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: all .4s;
-    }
-    
-    .btn-white::after {
-        background-color: #fff;
-    }
-    
-    .btn:hover::after {
-        transform: scaleX(1.4) scaleY(1.6);
-        opacity: 0;
-    }
-    
-    .btn-animated {
-        animation: moveInBottom 5s ease-out;
-        animation-fill-mode: backwards;
-    }
-    
-    @keyframes moveInBottom {
-        0% {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-    
-        100% {
-            opacity: 1;
-            transform: translateY(0px);
-        }
-    }
-    }
+  font-family: 'Pacifico', cursive;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+.btn button a {
+  text-decoration: none;
+  color: inherit;
+}
