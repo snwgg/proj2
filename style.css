@@ -13,6 +13,7 @@ body{
     }
     .btn{
       .text-box {
+        justify-content: center;
         margin-left: 44vw;
        margin-top: 42vh;
     }
