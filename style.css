@@ -4,9 +4,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.titulo{
-  color: antiquewhite;
-}
 
 .center {
   text-align: center;
@@ -14,6 +11,7 @@ body {
 
 .pacifico-regular {
   font-family: 'Pacifico', cursive;
+  color: white; /* Adiciona cor branca ao texto do título */
 }
 
 .btn {
